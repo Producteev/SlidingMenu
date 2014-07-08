@@ -234,7 +234,7 @@ public class CustomViewBehind extends ViewGroup {
 		}
 		if (vis == View.INVISIBLE)
 			Log.v(TAG, "behind INVISIBLE");
-		setVisibility(vis);
+//		setVisibility(vis);
 	}
 
 	public int getMenuLeft(View content, int page) {
